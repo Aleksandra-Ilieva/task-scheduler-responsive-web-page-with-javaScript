@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+
+
+<header>
+  <div class="wrapper">
+
+      <input  class="task-title" placeholder="Enter task title...">
+      <input  class="task-description" placeholder="Enter task description...">
+      <button class="add" type="button">Add Task</button>
+  </div>
+</header>
+<div class="section-comment">
+    <p class="comment">Successfully completed task</p>
+</div>
+
+<main>
+    <div class="to-do-section">
+        <div class="title">
+            <h1>ToDo</h1>
+        </div>
+
+        <ul class="toDo" role="list">
+<!--            <li>-->
+<!--                <h3>Fix Bug</h3>-->
+<!--                <p>Server error</p>-->
+<!--                <button type="button">Move To In Progress</button>-->
+<!--            </li>-->
+        </ul>
+    </div>
+
+    <div class="in-progress-section">
+        <div class="title">
+            <h1>In Progress</h1>
+        </div>
+
+        <ul class="inProgress" role="list"></ul>
+    </div>
+
+    <div class="code-review-section">
+        <div class="title">
+            <h1>Code Review</h1>
+        </div>
+
+        <ul class="codeReview" role="list"></ul>
+    </div>
+
+    <div class="Done-section">
+        <div class="title">
+            <h1>Done</h1>
+        </div>
+
+        <ul class="done" role="list"></ul>
+
+    </div>
+
+</main>
+
+
+<script src="add.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,167 @@
+
+header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+
+}
+
+
+body {
+    background-image: url("background.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 50%;
+    background-color: #E4F3FA;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 15px;
+}
+
+
+.wrapper input {
+    padding: 10px;
+    border: 1px solid grey;
+    background-color: #E4F3FA;
+    border-radius: 8px;
+
+
+}
+
+.add {
+    all: unset;
+    background-color: #408DA7;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 12px;
+
+
+}
+
+main {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.to-do-section {
+    text-align: center;
+    min-height: 600px;
+    width: 300px;
+    background-color: #9B89B3;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.in-progress-section {
+    text-align: center;
+    min-height: 600px;
+    width: 300px;
+    background-color: #9B89B3;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.code-review-section {
+    text-align: center;
+    min-height: 600px;
+    width: 300px;
+    background-color: #9B89B3;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.Done-section {
+    text-align: center;
+    min-height: 600px;
+    width: 300px;
+    background-color: #9B89B3;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+h1 {
+    font-size: 20px;
+
+}
+
+
+.title {
+    background: rgb(254, 247, 255);
+    background: linear-gradient(13deg, rgba(254, 247, 255, 1) 31%, rgba(197, 172, 200, 1) 68%);
+    width: 180px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 12px 18px;
+    border-radius: 12px;
+
+}
+
+ul li {
+    background-color: #E4F3FA;
+    margin-top: 10px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+ul li h3, p {
+    margin-top: 8px;
+}
+
+ul li button {
+    all: unset;
+    margin-top: 8px;
+    background-color: #408DA7;
+    border-radius: 10px;
+    width: 140px;
+    font-size: 14px;
+    padding: 6px 8px;
+
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #63c4e4;
+}
+.section-comment{
+   text-align: center;
+    margin-right: 120px;
+}
+.comment{
+    display: none;
+    font-size: 20px;
+    color: #30c95e;
+
+
+
+
+}
